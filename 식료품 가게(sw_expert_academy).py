@@ -12,7 +12,5 @@ for cnt in range(1, tc + 1):
         if cp[i] != 0 and li[i] * 4 / 3 in cp:
             answer.append(str(li[i]))
             cp[cp.index(li[i] * 4 // 3)] = 0
-            # print(li, cp, i)
-    # print(answer)
     answer = ' '.join(answer)
     print(f'#{cnt} {answer}')
